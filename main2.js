@@ -39,6 +39,12 @@ const sommaTot = sommaNumeri(somma)
 console.log(sommaTot);
 
 
+// Dichiarazione del vincitore
+if (pariOdispari === sommaTot) {
+    console.log('hai vinto');
+} else {
+    console.log ('hai perso');
+}
 
 
 
