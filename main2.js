@@ -35,7 +35,8 @@ const somma = numeroUtente + numeroComputer;
 console.log('somma:' , somma);
 
 // Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
-
+const sommaTot = sommaNumeri(somma)
+console.log(sommaTot);
 
 
 
@@ -49,3 +50,11 @@ console.log('somma:' , somma);
  }
 
 
+//Funzione somma pari o dispari
+
+function sommaNumeri(somma) {
+    if(somma % 2 === 0) {
+        return 'pari';
+    }
+     return 'dispari'
+}
