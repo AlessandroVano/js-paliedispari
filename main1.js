@@ -13,6 +13,13 @@
 // generazione parola al contrario
 const parolaInvertita = invertireParola(generazioneParola);
 console.log('invertita', parolaInvertita);
+//inserimento condizioni 
+if(generazioneParola === parolaInvertita) {
+    console.log('Palidroma'); 
+    } else {
+        console.log('Non Palindroma');
+    }
+
 
 
 
