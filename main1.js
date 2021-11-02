@@ -10,7 +10,12 @@
 
 
 
-// generazione parola
+// generazione parola al contrario
+const parolaInvertita = invertireParola(generazioneParola);
+console.log('invertita', parolaInvertita);
+
+
+
 // funzione per invertire la parola
 function invertireParola(parola) {
     /* split con stringa vuota (mi porta ogni carattere della parola ad essere un elemento di un array quindi passa da stringa che era in precedenza ad array), dopo concateno reverse (essendo diventato un array mi inverte la parola) infine join (mi fa ritornare il nostro array una stringa) */
