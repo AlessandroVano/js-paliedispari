@@ -10,7 +10,7 @@
 
 
  // 1. l'utente sceglie pari o dispari
- let pariOdispari = prompt('Inserisci pari o dispari')
+/*  let pariOdispari = prompt('Inserisci pari o dispari')
 
  if((pariOdispari !== 'pari') && (pariOdispari !== 'dispari') ) {
     alert('Errore: inserimento non valido. Assegnazione automatica: pari');
@@ -63,4 +63,4 @@ function sommaNumeri(somma) {
         return 'pari';
     }
      return 'dispari'
-}
+} */
